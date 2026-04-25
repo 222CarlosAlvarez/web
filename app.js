@@ -1,5 +1,5 @@
 // Cambiamos el nombre a miConexion para evitar choques
-const URL_PROYECTO = 'https://bkzvyoqdvxahwuakptwf.supabase.co/rest/v1/';
+const URL_PROYECTO = 'https://bkzvyoqdvxahwuakptwf.supabase.co';
 const KEY_ANONIMA = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJrenZ5b3FkdnhhaHd1YWtwdHdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxMjQxODIsImV4cCI6MjA5MjcwMDE4Mn0.Oi9EE0O0M4s0qorRI1UFJfGYsPOYWz19txMNgze75r8';
 
 const miConexion = supabase.createClient(URL_PROYECTO, KEY_ANONIMA);
