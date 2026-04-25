@@ -1,5 +1,5 @@
 // CONFIGURACIÓN: Reemplaza con tus credenciales de Supabase
-const SUPABASE_URL = 'https://bkzvyoqdvxahwuakptwf.supabase.co/';
+const SUPABASE_URL = 'https://bkzvyoqdvxahwuakptwf.supabase.co/rest/v1/';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJrenZ5b3FkdnhhaHd1YWtwdHdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcxMjQxODIsImV4cCI6MjA5MjcwMDE4Mn0.Oi9EE0O0M4s0qorRI1UFJfGYsPOYWz19txMNgze75r8';
 
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
