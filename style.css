@@ -1,0 +1,7 @@
+body { font-family: sans-serif; background: #f4f4f9; display: flex; justify-content: center; padding: 50px; }
+.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 300px; }
+h1 { font-size: 1.5rem; color: #333; }
+.input-group { display: flex; gap: 5px; margin-bottom: 20px; }
+input { flex: 1; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+button { background: #3ecf8e; color: white; border: none; padding: 8px 12px; cursor: pointer; border-radius: 4px; }
+li { padding: 10px; border-bottom: 1px solid #eee; list-style: none; color: #555; }
